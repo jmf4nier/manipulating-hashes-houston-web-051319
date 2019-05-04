@@ -10,9 +10,9 @@ def second_challenge
 
   #code your solution here!
   
-  list = groceries.values 
-  list.flatten[2]
-  binding.pry
+  groceries.values.flatten 
+  
+  #binding.pry
 end
 
 second_challenge
