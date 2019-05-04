@@ -1,3 +1,5 @@
+require 'pry'
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -10,4 +12,7 @@ def second_challenge
   list = []
   list << groceries.values 
   list.flatten[2]
+  binding.pry
 end
+
+second_challenge
