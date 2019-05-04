@@ -12,7 +12,7 @@ def second_challenge
   
   groceries.values.flatten 
   
-  #binding.pry
+  binding.pry
 end
 
 second_challenge
