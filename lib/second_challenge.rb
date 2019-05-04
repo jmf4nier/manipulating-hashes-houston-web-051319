@@ -10,7 +10,7 @@ def second_challenge
 
   #code your solution here!
   
-  list << groceries.values 
+  list = groceries.values 
   list.flatten[2]
   binding.pry
 end
