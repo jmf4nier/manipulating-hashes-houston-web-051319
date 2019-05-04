@@ -8,9 +8,6 @@ def second_challenge
 
   #code your solution here!
   list = []
-  groceries.each do |keys, values|
-    list << values
-  end
-  list.flatten
+  groceries.values 
 
 end
