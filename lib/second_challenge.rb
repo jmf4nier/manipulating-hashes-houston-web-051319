@@ -8,7 +8,10 @@ def second_challenge
 
   #code your solution here!
   groceries.each do |k, v|
-    k.values
+    k.each do |k, v|
+      v.values
+    end
+      
   end
   
 
